@@ -17,7 +17,7 @@
     "devDependencies": {},
     "scripts": {
         "dev": "ts-node-dev src/server.ts",
-        "start": "ts-node dist/server.js",
+        "start": "node dist/server.js",
         "build": "tsc -p ."
     },
     "keywords": [],
